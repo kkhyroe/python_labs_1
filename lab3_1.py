@@ -1,0 +1,24 @@
+from math import *
+xb = float(input())
+xe = float(input())
+dx = float(input())
+xt = xb
+print("+--------+--------+")
+print("I   X    I    Y   I")
+print("+--------+--------+")
+while xt <= xe:
+    if xt < -4:
+        y = 2
+    elif (xt >= -4) and (xt < -2):
+        y = 2-(sqrt(4-((xt+2)**2)))
+    elif (xt >= -2) and (xt <= 0):
+        y = 0
+    elif (xt > 0) and (xt <= 3):
+        y = -xt
+    elif (xt > 3) and (xt < 5):
+        y = sqrt(4-(xt-3)**2) - 1
+    elif xt >= 5:
+        y = -1
+    print("I{0: 7.2f} I{1: 7.2f} I".format(xt, y))
+    xt += dx
+print("+--------+--------+")
