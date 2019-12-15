@@ -1,9 +1,9 @@
 from tkinter import *
 import pandas as pd
 
+k = 0
 route = []
 mas = []
-k = 0
 
 def btn_click():
     global k

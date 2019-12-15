@@ -1,8 +1,8 @@
 from math import *
 from random import *
 
-fi = open('input.txt', 'rt')
-fo = open('output.txt', 'wt')
+fi = open('C:/Users/romav/Google Диск/Study/Основы программирования/python_labs/input.txt', 'rt')
+fo = open('C:/Users/romav/Google Диск/Study/Основы программирования/python_labs/output.txt', 'wt')
 
 a = []
 

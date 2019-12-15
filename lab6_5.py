@@ -43,6 +43,6 @@ for i in range(n):
 
     strk = strk + ' ' + s
 
-fo = open('output.txt', 'wt')
+fo = open('C:/Users/romav/Google Диск/Study/Основы программирования/python_labs/output.txt', 'wt')
 fo.write(str(strk))
 fo.close()
