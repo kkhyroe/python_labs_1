@@ -9,7 +9,7 @@ def f2(a):
     return y
 
 fo = open('C:/Users/romav/Google Диск/Study/Основы программирования/python_labs/output.txt', 'wt')
-fi = open('C:/Users/romav/Google Диск/Study/Основы программирования/python_labs/input1.txt', 'rt')
+fi = open('C:/Users/romav/Google Диск/Study/Основы программирования/python_labs/input6_1.txt', 'rt')
 a = float(fi.readline())
 
 fo.write(str(f1(a)))

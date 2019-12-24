@@ -1,7 +1,7 @@
 from math import *
 from random import *
 
-fi = open('C:/Users/romav/Google Диск/Study/Основы программирования/python_labs/input.txt', 'rt')
+fi = open('C:/Users/romav/Google Диск/Study/Основы программирования/python_labs/input6_4.txt', 'rt')
 fo = open('C:/Users/romav/Google Диск/Study/Основы программирования/python_labs/output.txt', 'wt')
 
 a = []
